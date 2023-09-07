@@ -1,7 +1,7 @@
 import random
 
 def hangman():
-    word_list = ['apple', 'banana', 'cherry', 'date', 'elderberry']
+    word_list = ['country', 'express', 'frame', 'people', 'signal']
     secret_word = random.choice(word_list)
     guesses_left = 6
     warnings_left = 3
